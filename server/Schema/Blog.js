@@ -1,25 +1,14 @@
 import mongoose, { Schema } from "mongoose";
 
 const blogSchema = mongoose.Schema({
-
-    blog_id: {
-        type: String,
-        required: true,
-        unique: true,
-    },
     title: {
         type: String,
         required: true,
     },
-    banner: {
-        type: String,
-        // required: true,
-    },
-    des: {
-        type: String,
-        maxlength: 200,
-        // required: true
-    },
+    // banner: {
+    //     type: String,
+    //     // required: true,
+    // },
     content: {
         type: [],
         // required: true
